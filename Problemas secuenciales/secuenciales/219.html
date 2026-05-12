@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 2.19</title>
+    <link rel="stylesheet" href="../styles/estilo.css">
+</head>
+<body>
+
+<h1>Llamada telefonica </h1>
+
+<label>Minutos de llamada: </label>
+<input type="number" id="min">
+<label>Costo por minuto:</label>
+<input type="number" id="costo">
+
+<button onclick="calcular219()">Calcular</button>
+
+<h2 id="pagar">
+    <h2>Pseudocódigo</h2>
+    <pre>
+Inicio
+
+    Leer minutos
+    Leer costo_por_minuto
+
+    costo ← minutos * costo_por_minuto
+
+    Escribir "El costo es: ", costo
+
+Fin
+        </pre>
+
+        <h2>Diagrama de flujo</h2>
+        <img src="../imagenes/diagrama.png"  alt="Diagrama de flujo" width="300">
+
+    <script src="../scripts/pro10.js"></script>
+</body>
+</html>
